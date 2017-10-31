@@ -1,0 +1,44 @@
+<!-- script and format for catalog -->
+<!-- Use plus sign and single quotes if you break text inside of jQuery script -->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('.header').before(
+              '<div class="alertMessageContainer"><p class="alertMessageL1"><strong>Wednesday, October 11</strong><br><span class="alertMessageL2">Our libraries will be closed until 1:30&nbsp;p.m. for staff training.</span></p></div>'
+        );
+    });
+</script>
+
+
+<!-- format for website -->
+<div class="alertMessageContainer">
+<p class="alertMessageL1">
+    <strong>Wednesday, October 11</strong>
+<br>
+<span class="alertMessageL2">Our libraries will be closed until 1:30&nbsp;p.m. for staff training.</span>
+</p>
+</div>
+
+
+
+
+<!-- NOTE in stylesheets library.css and catalogCustomTheme.css - FTP site  -->
+
+<style>
+.alertMessageContainer {
+  width: 100%;
+  margin:auto;
+  background-color:#FFD240;
+}
+.alertMessageL1 {
+text-align: center;
+line-height: 1.2em;
+margin:0;
+padding-top:2px;
+color:black;
+font-weight:normal;
+font-size: 1.2em;
+}
+.alertMessageL2 {
+font-size: 1em;
+}
+</style>

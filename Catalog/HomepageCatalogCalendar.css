@@ -1,0 +1,67 @@
+/* css stripped down from PublicPCFeeds so as not to interfere with catalog css */
+
+
+.calHeading {
+  font-size: 20px;
+  font-weight: bold;
+  width: 100%;
+  text-align: center;
+  padding: .5em 0;
+  color: #ffffff;
+  background-color: #009445;
+}
+div.wcm-events {
+    color: #696764;
+    overflow: hidden;
+    background-color: white;
+    padding: 0 20px;
+}
+.eventList {
+    font-size: 1em;
+    padding: 10px;
+    line-height: 1.4em;
+    text-align: left;
+}
+.eventList a:link, a:visited {
+  color: #1d6078;
+  text-decoration: none;
+}
+.eventList .item {
+    margin-bottom: 15px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #D3D3D3;
+}
+.eventList .item::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.eventList .title {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin-bottom: 5px;
+    color:
+}
+.eventList .time {
+    color: #737373;
+    font-weight: bold;
+    font-size: .9em;
+    margin-bottom: 5px;
+}
+.eventList .date {
+    float: right;
+}
+.eventList img {
+  width: 100px;
+  float: left;
+  margin-bottom: 3px;
+  margin-right: 8px;
+}
+
+.eventList .location {
+    line-height: 2em;
+    color: #009445;
+}
+.eventList .branch {
+    display: none;
+}

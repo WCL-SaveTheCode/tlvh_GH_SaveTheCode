@@ -1,0 +1,59 @@
+
+
+
+<!-- NOTE: this needs to be updated to the current code!!!!! -->
+<!-- NOTE: this needs to be updated to the current code!!!!! -->
+
+<!-- NOTE: this needs to be updated to the current code!!!!! -->
+
+
+
+
+
+<!-- script and format for catalog -->
+<!-- Use plus sign and single quotes if you break text inside of jQuery script -->
+<script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('.header').before(
+              '<div class="alertMessageL1">Our libraries will be closed <strong>Monday, September 4</strong> for the <strong> Labor Day</strong> holiday.</strong></div></br>'
+            + '<div class="alertMessageL2">Regular hours resume Tuesday, September 5.</div>'
+        );
+    });
+</script>
+
+
+<!-- format for website -->
+<div class="alertMessageL1">
+    Our libraries will be closed <strong>DayName, Month DayNumber</strong> in observance of <strong> HolidayName</strong>.
+</div>
+<div class="alertMessageL2">Regular hours resume Tuesday, September 5.</div>
+
+
+<!-- alt message -->
+<div class="alertMessageL1">Our libraries will be closed <strong>Monday, September 4</strong> for the <strong> Labor Day</strong> holiday.</div>
+<div class="alertMessageL2">Regular hours resume Tuesday, September 5.</div>
+
+
+<!-- NOTE in stylesheets library.css and catalogCustomTheme.css - FTP site  -->
+
+<style>
+.alertMessageL1 {
+text-align: center;
+margin:0;
+padding-top:2px;
+color:black;
+background-color:#FFD240;
+height:1.5em;
+font-weight:normal;
+font-size: 1.2em;
+}
+.alertMessageL2 {
+text-align: center;
+margin:0;
+color:black;
+background-color:#FFD240;
+height:1.5em;
+font-weight:normal;
+font-size: 1em;
+}
+</style>

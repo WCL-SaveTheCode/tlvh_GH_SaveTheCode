@@ -1,0 +1,180 @@
+<div id="captioned-gallery">
+    <figure class="slider">
+
+      <!--  1st and last side - should match for consistency/smooth transitions -->
+      <figure>
+        <!-- <img src="/ImageRepository/Document?documentID=325" alt=""> -->
+        <img src="images/HomepageImage_girlSalamander.jpg" alt="">
+          <figcaption>
+            <section>
+              <h4>Inspire Curiosity. </h4>
+              <h4>Champion Innovation. </h4>
+              <h4>Spark Opportunity. </h4>
+            </section>
+          </figcaption>
+      </figure>
+
+      <!--  2nd slide  -->
+      <figure>
+        <a href="/266/Author-Expo" style="text-decoration: none;">
+          <!-- <img src="/ImageRepository/Document?documentID=326" alt=""> -->
+          <img src="images/HomepageImage_authorExpo.jpg" alt="">
+        <figcaption>
+          <section>
+          <h4>Author Expo 2016</h4>
+          <p>Saturday, October 1, 2016 <br>
+            9:30 a.m. &ndash; 12:30 p.m. </p>
+          <p>
+            R.H. Stafford Library <br>
+            8595 Central Park Place <br>
+            Woodbury, MN </p>
+        </a>
+      </section>
+      </figcaption>
+      </figure>
+
+      <!-- 3rd slide  -->
+      <figure>
+        <a href="/273/A-Library-Card">
+        <!-- <img src="/ImageRepository/Document?documentID=327" alt=""> -->
+        <img src="images/HomepageImage_LibCardWeek.jpg" alt="">
+        <figcaption>
+          <section>
+          <h4>September is <br>
+          Library Card Sign-up Month</h4>
+          <p>Get yours today! </p>
+        </section>
+        </figcaption>
+        </a>
+      </figure>
+
+      <!--  4th slide  -->
+      <figure>
+        <a href="http://www.brainfuse.com/highed/helpNow.asp?a_id=C1A47DFE&ss=&r=">
+        <!-- <img src="/ImageRepository/Document?documentID=331" alt=""> -->
+        <img src="images/HomepageImage_homeworkRescue.jpg" alt="">
+        <figcaption>
+          <section>
+            <h4>Stuck on homework?</h4>
+          <p>All you need is your library card to get free online homework help</p>
+          </section>
+        </figcaption>
+        </a>
+      </figure>
+
+      <!--  1st and last side - should match for consistency/smooth transitions  -->
+      <figure>
+        <!-- <img src="/ImageRepository/Document?documentID=325" alt=""> -->
+        <img src="images/HomepageImage_girlSalamander.jpg" alt="">
+          <figcaption>
+            <section>
+              <h4>Inspire Curiosity. </h4>
+              <h4>Champion Innovation. </h4>
+              <h4>Spark Opportunity. </h4>
+            </section>
+          </figcaption>
+      </figure>
+
+
+    </figure>
+  </div>
+
+  <style>
+  @keyframes slidy {
+    0% {
+      left: 0%; }
+    20% {
+      left: 0%; }
+    25% {
+      left: -100%; }
+    45% {
+      left: -100%; }
+    50% {
+      left: -200%; }
+    70% {
+      left: -200%; }
+    75% {
+      left: -300%; }
+    95% {
+      left: -300%; }
+    100% {
+      left: -400%; } }
+  figure {
+    margin: 0; }
+
+  div#captioned-gallery {
+    width: 100%;
+    overflow: hidden; }
+
+  figure.slider {
+    position: relative;
+    width: 500%;
+    font-size: 0;
+    animation: 30s slidy infinite; }
+
+  figure.slider figure {
+    width: 20%;
+    height: auto;
+    display: inline-block;
+    position: inherit; }
+
+  figure.slider img {
+    width: 100%;
+    height: auto; }
+
+  figure.slider figure figcaption {
+    position: absolute;
+    top: 0;
+    right: 3%;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    width: 25%;
+    height: 100%;
+    /*font-family: serif;*/
+    padding: 0 1.2rem;
+    text-align: center;
+  }
+
+  figure.slider figure figcaption h4 {
+    font-family: "Open Sans", sans-serif;
+      font-size: 1.7rem;
+      line-height: 2.2rem;
+      margin: 0 0 1rem 0;
+    }
+
+  figure.slider figure figcaption section {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    }
+
+  figure.slider figure figcaption p {
+    font-family: serif;
+    font-size: 1.3rem;
+    line-height: 1.8rem;
+    margin-top: .8rem; }
+
+  figure.slider figure figcaption a {
+      color: #fff !important;
+    }
+
+@media only screen and (max-width: 450px) {
+  figure.slider figure figcaption {
+    display: none;
+  }
+}
+
+  @media only screen and (max-width: 1000px) {
+    figure.slider figure figcaption h4 {
+        font-size: 1.2rem;
+        line-height: 1.8rem;
+        margin: 0 0 .6rem 0;
+      }
+      figure.slider figure figcaption p {
+        font-size: .8rem;
+        line-height: 1.2rem;
+        margin-top: .5rem;
+      }
+  }
+
+  </style>

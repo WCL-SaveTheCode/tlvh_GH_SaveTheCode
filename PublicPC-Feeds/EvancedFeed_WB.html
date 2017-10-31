@@ -1,0 +1,97 @@
+<!-- https://www.washcolib.org/DocumentCenter/View/150 -->
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta content="text/html; charset=utf-8" https-equiv="Content-type">
+
+  <title>Washington County Library - R.H. Stafford - Public PC</title>
+  <meta content="width=device-width, initial-scale=1" name="viewport">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+  <link href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
+  <link href="https://wcm.ent.sirsi.net/custom/web/PublicPCFeeds.css" rel="stylesheet" type="text/css">
+  <script type="text/javascript">
+  function calcHeight() {
+    //find the height of the internal page
+    var the_height=
+      document.getElementById('the_iframe').contentWindow.
+        document.body.scrollHeight;
+
+    //change the height of the iframe
+    document.getElementById('the_iframe').height=
+        the_height;
+    }
+    </script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+    (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+    m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+    })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+    ga('create', 'UA-55732236-2', 'auto');
+    ga('send', 'pageview');
+
+    </script>
+  </head>
+<body>
+  <div class="WCLlogo"><a href="https://www.washcolib.org"><img src="https://wcm.ent.sirsi.net/custom/web/images/WCL_Logo.png" alt="Washington County Library. Inspire curiosity. Champion innovation. Spark opportunity."></a>
+  </div>
+  <table class="wclTable">
+    <tr>
+      <td class="padding">
+        <a class="btn btn-primary" href="https://www.washcolib.org" id="button1" onclick="ga('send', 'event', 'Library Home', 'Click Link', 'Library Home from Cybrarian popup');" target="_blank">Library Website</a>
+      </td>
+
+      <td class="padding">
+        <a class="btn btn-secondary" href="https://wcm.ent.sirsi.net/client/en_US/default/?" id="button2" onclick="ga('send', 'event', 'Discovery Catalog', 'Click Link', 'Catalog Home from Cybrarian popup');" target="_blank">Library Catalog</a>
+      </td>
+
+      <td class="padding">
+        <form action="https://wcm.ent.sirsi.net/client/embedded.search/default" id="searchForm" method="get" name="searchForm" onclick="ga('send', 'event', 'Discovery Catalog', 'Search', 'Search catalog from Cybrarian popup');" target="_blank">
+          <div class="searchboxwrapper">
+            <input name="ln" type="hidden" value="en_US"> <input accesskey="s" id="CatalogSearchBox" maxlength="100" name="qu" onblur="if (this.value == '') this.value = 'Search Library Catalog';" onfocus="if (this.value == 'Search Library Catalog') this.value = '';" onkeypress="if (event.keyCode == 13) catSearchFormSubmit();" title="Search For:" type="text" value="Search Library Catalog"> <input class="searchsubmit" id="searchButton" onclick="catSearchCheckSubmit();" title="Search" type="submit" value="&#xf002;">
+          </div>
+        </form>
+      </td>
+    </tr>
+  </table>
+
+    <div class="eventHeader"><a href="https://melsawashington.evanced.info/signup/list?lib=0&nd=60" onclick="ga('send', 'event', 'Calendar', 'Click Link', 'All Events Cybrarian popup');" target="_blank">
+      R.H. Stafford Library Events</a></div>
+
+<!-- Woodbury Events Feed -->
+<div class="wcm-events">
+
+
+    <div id="eventsinfo"></div>
+    <script charset="ISO-8859-1" type="text/javascript" src="https://melsawashington.evanced.info/signupadmin/eventsxml.aspx?dm=html&nd=30&lib=0&limit=5&alltime=1">
+    </script>
+
+    <h3 class="subheaderEvents">
+      <a href="https://melsawashington.evanced.info/signup/list?lib=0&nd=60" onclick="ga('send', 'event', 'Calendar', 'Click Link', 'All Events Cybrarian popup');" target="_blank">See all library events...</a>
+    </h3>
+
+  </div>
+
+
+
+  <script type="text/javascript">
+function catSearchCheckSubmit() {
+    if (document.getElementById("CatalogSearchBox").value == "Search Library Catalog")
+    {
+      document.getElementById("CatalogSearchBox").value = "";
+    }
+  }
+  function catSearchFormSubmit() {
+    document.getElementById("searchForm").submit();
+  }
+
+  $(document).ready(function() {
+  //Events on Cybrarian popup //
+    $('#eventtitle a').click(function() {
+    ga('send', 'event', 'Calendar', 'Click Link', 'Library Event Cybrarian popup');
+        });
+  });
+  </script>
+</body>
+</html>

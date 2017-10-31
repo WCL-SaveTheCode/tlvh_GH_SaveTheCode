@@ -1,0 +1,373 @@
+<!-- NOTE: When adding or deleting slides, dots must match number of slides. See note after slide code  -->
+
+<div class="w3-content w3-display-container">
+
+
+  <div class="mySlides my-fade">
+    <figure class="slider">
+        <figure>
+            <a href="/438/NEW-Video-Games" style="text-decoration: none;">
+                <img src="/ImageRepository/Document?documentID=1026" alt="">
+                <figcaption>
+                    <section>
+                        <h4>Get Gaming!</h4>
+                        <p>Check out your favorite video games from your library.</p>
+
+                    </section>
+                </figcaption>
+            </a>
+        </figure>
+    </figure>
+</div>
+
+<div class="mySlides my-fade">
+  <figure class="slider">
+      <figure>
+          <a href="/255/Teen-Read-Month" style="text-decoration: none;">
+              <img src="/ImageRepository/Document?documentID=1004" alt="">
+              <figcaption>
+                  <section>
+                      <h4>Vote &amp; Win!<br>
+                        Teen Read Month</h4>
+                      <p>Read <em>Book Ballots</em> nominees, get a prize for voting, and enter to win the grand prize.</p>
+
+                  </section>
+              </figcaption>
+          </a>
+      </figure>
+  </figure>
+</div>
+
+
+  <div class="mySlides my-fade">
+    <figure class="slider">
+        <figure>
+            <a href="/412/Publish-My-Book" style="text-decoration: none;">
+                <img src="/ImageRepository/Document?documentID=968" alt="">
+                <figcaption>
+                    <section>
+                        <h4>MN&nbsp;Writes MN&nbsp;Reads</h4>
+                        <p><strong>Authors:</strong> create and share your eBook using online tools we provide.</p>
+                        <p><strong>Readers:</strong> Find your next favorite Minnesota author.</p>
+
+                    </section>
+                </figcaption>
+            </a>
+        </figure>
+    </figure>
+</div>
+
+
+  <div class="mySlides my-fade">
+    <figure class="slider">
+        <figure>
+            <a href="http://www.rbdigital.com/washingtoncomn/service/magazines/landing?q=%2Fadult-coloring-books%2F&p_num=1" style="text-decoration: none;">
+                <img src="/ImageRepository/Document?documentID=938" alt="">
+                <figcaption>
+                    <section>
+                        <h4>Got stress?</h4>
+                        <p>Check out our online coloring books!
+                        <br>Download, print, RELAX.</p>
+
+                    </section>
+                </figcaption>
+            </a>
+        </figure>
+    </figure>
+</div>
+
+
+  <div class="mySlides my-fade">
+      <figure class="slider">
+          <figure>
+              <a href="/413/Libby" style="text-decoration: none;">
+                  <img src="/ImageRepository/Document?documentID=865" alt="">
+                  <figcaption>
+                      <section>
+                          <h4>Meet Libby</h4>
+                          <p>Like OverDrive?
+                            <br>
+                            Stick with it!
+                          </p>
+                          <p>
+                            Not sure?
+                            <br>
+                            Try the new Libby app.</p>
+
+                      </section>
+                  </figcaption>
+              </a>
+          </figure>
+      </figure>
+  </div>
+
+
+
+
+    <div class="w3-center w3-section" style="width:100%">
+        <!-- advance left and right arrows
+            <div class="w3-left w3-padding-left w3-text-grey w3-hover-text-dkgrey" style="font-size:22px; margin-top:-10px;" onclick="plusDivs(-1)">&#10094;</div>
+            <div class="w3-right w3-padding-right w3-text-grey w3-hover-text-dkgrey" style="font-size:22px; margin-top:-10px;" onclick="plusDivs(1)">&#10095;</div> -->
+
+
+<!-- NOTE: the number of dots must match the number of slides, or slideshow won't work -->
+        <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(1)"></span>
+        <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(2)"></span>
+        <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(3)"></span>
+        <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(4)"></span>
+        <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(5)"></span>
+        <!-- <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(6)"></span> -->
+        <!-- <span class="w3-badge demo w3-border w3-hover-grey" onclick="currentDiv(7)"></span> -->
+
+    </div>
+
+</div>
+
+<style>
+    .mySlides {
+        display: none
+    }
+
+    .w3-left,
+    .w3-right,
+    .w3-badge {
+        cursor: pointer
+    }
+
+    .w3-content {
+        max-width: 1200px;
+        margin: auto;
+    }
+
+    .w3-display-container {
+        position: relative
+    }
+
+    .w3-center {
+        text-align: center
+    }
+
+    .w3-section {
+        margin-top: 12px;
+        margin-bottom: 12px
+    }
+    /*.w3-display-bottomleft{position:absolute;left:0;bottom:-5px}*/
+
+    .w3-left {
+        float: left
+    }
+
+    .w3-right {
+        float: right
+    }
+
+    .w3-padding-left {
+        padding-left: 16px
+    }
+
+    .w3-padding-right {
+        padding-right: 16px
+    }
+
+    .w3-hover-text-dkgrey:hover {
+        color: #959595
+    }
+
+    .w3-badge {
+        background-color: #cdcdcd;
+        color: #959595;
+        display: inline-block;
+        text-align: center;
+        border-radius: 50%;
+        height: 8px;
+        width: 8px;
+        margin: 0 5px;
+    }
+
+    .w3-text-grey {
+        color: #cdcdcd;
+    }
+
+    .w3-grey,
+    .w3-hover-grey:hover {
+        color: #cdcdcd;
+        background-color: #959595
+    }
+
+    .w3-animate-fading {
+        -webkit-animation: fading 10s infinite;
+        animation: fading 10s infinite
+    }
+
+    @-webkit-keyframes fading {
+        0% {
+            opacity: 0
+        }
+        50% {
+            opacity: 1
+        }
+        100% {
+            opacity: 1
+        }
+    }
+
+    @keyframes fading {
+        0% {
+            opacity: 0
+        }
+        50% {
+            opacity: 1
+        }
+        100% {
+            opacity: 1
+        }
+    }
+
+    .my-fade {
+        background-color: #000;
+        animation-name: fading;
+        animation-duration: .45s;
+    }
+    /*CSS from original slider*/
+
+    figure {
+        margin: 0;
+    }
+
+    figure.slider {
+        position: relative;
+        font-size: 0;
+    }
+
+    figure.slider figure {
+        height: auto;
+        display: inline-block;
+        position: inherit;
+    }
+
+    figure.slider img {
+        width: 100%;
+        height: auto;
+    }
+
+    figure.slider figure figcaption {
+        position: absolute;
+        top: 0;
+        right: 3%;
+        background: rgba(0, 0, 0, 0.7);
+        color: #fff;
+        width: 25%;
+        height: 100%;
+        /*font-family: serif;*/
+        padding: 0 1.2rem;
+        text-align: center;
+    }
+
+    figure.slider figure figcaption h4 {
+        font-family: "Open Sans", sans-serif;
+        font-size: 1.7rem;
+        line-height: 2.2rem;
+        margin: 0 0 1rem 0;
+    }
+
+    figure.slider figure figcaption section {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+
+    figure.slider figure figcaption p {
+        font-family: serif;
+        font-size: 1.3rem;
+        line-height: 1.8rem;
+        margin-top: .8rem;
+    }
+
+    figure.slider figure figcaption a {
+        color: #fff !important;
+    }
+
+    @media only screen and (max-width: 450px) {
+        .w3-content {
+            display: none;
+        }
+    }
+
+    @media only screen and (min-width: 451px) and (max-width: 820px) {
+        figure.slider figure figcaption h4 {
+            font-size: 1rem;
+            line-height: 1.3rem;
+            margin: 0 0 .4rem 0;
+        }
+        figure.slider figure figcaption p {
+            font-size: .6rem;
+            line-height: .9rem;
+            margin-top: .3rem;
+        }
+    }
+
+    @media only screen and (min-width: 821px) and (max-width: 1180px) {
+        figure.slider figure figcaption h4 {
+            font-size: 1.2rem;
+            line-height: 1.8rem;
+            margin: 0 0 .6rem 0;
+        }
+        figure.slider figure figcaption p {
+            font-size: .8rem;
+            line-height: 1.2rem;
+            margin-top: .5rem;
+        }
+    }
+</style>
+
+<script>
+    var slideIndex = 0;
+    showDivs(slideIndex);
+
+    function plusDivs(n) {
+        showDivs(slideIndex += n);
+    }
+
+    function currentDiv(n) {
+        showDivs(slideIndex = n);
+    }
+
+    function showDivs(n) {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        var dots = document.getElementsByClassName("demo");
+        if (n > x.length) {
+            slideIndex = 1
+        }
+        if (n < 1) {
+            slideIndex = x.length
+        }
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+            dots[i].className = dots[i].className.replace(" w3-grey", "");
+        }
+        x[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " w3-grey";
+    }
+
+    // comment this function call out to stop carousel when testing
+    carousel();
+    //---------------
+
+    function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > x.length) {
+            slideIndex = 1
+        }
+        x[slideIndex - 1].style.display = "block";
+        currentDiv(slideIndex);
+        setTimeout(carousel, 5000); // Change image every 5 seconds
+    }
+</script>
