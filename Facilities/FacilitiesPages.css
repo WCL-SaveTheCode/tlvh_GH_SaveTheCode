@@ -1,18 +1,18 @@
 <style>
 
-/*h3 {
-  text-align: right;
-  margin: 0 0 20px 0;
-  padding: 0;
-}*/
-
 .eventList a:link, a:visited {
-  color: #009445 !important;
+  /*color: #009445 !important;*/
   text-decoration: none !important;
 }
 
 .eventList a:hover, a:active {
   text-decoration: underline !important;
+}
+
+.subheadFacility {
+font-size: 1em !important;
+line-height: 1em !important;
+margin: 0 0 -.5em 0 !important;
 }
 
 div.eventHeader {
@@ -106,6 +106,10 @@ div.wcm-events {
 
 .hoursDay {
   font-weight: bolder;
+}
+
+.hoursRightJ {
+  text-align: right;
 }
 
 </style>

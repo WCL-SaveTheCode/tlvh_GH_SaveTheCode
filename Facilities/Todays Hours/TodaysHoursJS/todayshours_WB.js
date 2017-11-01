@@ -23,7 +23,7 @@
 // Enter the time your library closes, starting with Sunday. If your library is
 // closed, enter "X" for the time.
 
-	var close=["5:00 PM","9:00 PM","9:00 PM","9:00 PM","9:00 PM","5:00 PM","5:00 PM"]; // Edit this line
+	var close=["5:00 PM","8:00 PM","8:00 PM","8:00 PM","8:00 PM","5:00 PM","5:00 PM"]; // Edit this line
 
 // Do not edit below this line
 // -------------------------------------------------------------------
@@ -46,9 +46,9 @@
 			var libhours = "Closed";
 			document.write(libhours);
 		} else {
-			var libhours = "<h2 style='margin-bottom:0'>Today&#8217;s Hours</h2> <strong>" + openTime + " &#8211; "
-			+ closeTime + "</strong>" + "<p style='margin-bottom:0'>Hours Tomorrow <br>" + openTomorrow + " &#8211; "
-			+ closeTomorrow + "</p>";
+			var libhours = "<h2 style='margin-bottom:0'>Open Today</h2> <strong>" + openTime + " &#8211; "
+			+ closeTime + "</strong>" + "<p style='margin-bottom:0;font-size:.9em;'>Open Tomorrow " + openTomorrow + " &#8211; "
+			+ closeTomorrow + "</p><br>";
 			document.write(libhours);
 		}
 	}
