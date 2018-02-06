@@ -1,0 +1,16 @@
+Library Number
+
+ 10   Bayport Public Library
+ 3    GO!Lab
+ 1    Hardwood Creek Library
+ 2    Hugo
+ 1002 Lake Elmo Library
+ 1001 Library Administration
+ 6    Marine Community Library
+ 4    Oakdale Library
+ 5    Park Grove Library
+ 0    R.H. Stafford Library
+ 11   Stillwater Public Library
+ 7    Valley Library
+ 9    WC Law Library
+ 8    Wildwood Library
