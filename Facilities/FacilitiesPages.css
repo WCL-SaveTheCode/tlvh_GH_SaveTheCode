@@ -85,13 +85,14 @@ div.wcm-events {
 .sidebarContainer {
   font-size: .9em;
   line-height: 1.2;
-  background-color: #e8e4d8;
+  background-color: #edebe6;
   text-align: center;
   padding: 10px;
 }
 
 .hoursTable {
   width: 100%;
+  margin-bottom: 1em;
 }
 
 /*.hoursTable tr {
