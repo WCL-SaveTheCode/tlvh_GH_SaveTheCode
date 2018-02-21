@@ -32,3 +32,15 @@
 /*035f2e*/
 /*1D7862*/
 /*145444*/
+
+
+/*for sidebar*/
+<style>
+
+div.outer.col.col8.first {
+  padding: .5em;
+  border: solid 1.2em #005f9e;
+  background-color: #fff;
+}
+
+</style>
