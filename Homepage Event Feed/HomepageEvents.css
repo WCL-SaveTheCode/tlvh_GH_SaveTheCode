@@ -1,0 +1,87 @@
+<style>
+
+h3 {
+  text-align: right;
+  margin: 0 0 20px 0;
+  padding: 0;
+}
+
+.eventList a:link, a:visited {
+  text-decoration: none !important;
+}
+
+.eventList a:hover, a:active {
+  text-decoration: underline !important;
+}
+
+div.eventHeader {
+  font-size: 1.2em;
+  font-weight: bold;
+  font-style: normal;
+  text-align: center;
+  margin: 20px 0 10px 0;
+}
+
+div.wcm-events {
+  color: #696764;
+  max-width: 40em;
+  overflow: hidden;
+}
+
+.eventList {
+  font-size: .9em;
+  /*padding: 10px;*/
+  line-height: 1.2em;
+}
+
+.eventList .item {
+  margin-bottom: 15px;
+  padding-bottom: 10px;
+  border-bottom: 2px solid #D3D3D3;
+}
+
+.eventList .item::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+.eventList .title {
+  font-size: 1.1em;
+  line-height: 1.3em;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.eventList .time {
+  color: #737373;
+  font-weight: bold;
+  font-size: .9em;
+  margin-bottom: 5px;
+}
+
+.eventList .date {
+  float: right;
+}
+
+.eventList img {
+  /*display: none;*/
+  width: 100px;
+  float: left !important;
+  margin-bottom: 3px;
+  margin-right: 8px;
+}
+
+.eventList .location {
+  line-height: 2em;
+}
+
+.eventList .branch {
+  color: #005D2B;
+  letter-spacing: .02em;
+  text-transform: uppercase;
+}
+
+
+
+</style>
