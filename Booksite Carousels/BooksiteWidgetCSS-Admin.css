@@ -1,0 +1,121 @@
+<style>
+    /*Styling for the page lists*/
+
+    html{
+      padding: 0px;
+    }
+
+    body {
+        background-color: #ffffff;
+        margin: 0px;
+    }
+
+    center {
+        display: none;
+    }
+
+    #bkwidgetNLNF,
+    #bkwidgetNLBFH,
+    #bkwidgetCNL2,
+    #bkwidgetNLTS,
+    #bkwidgetALAYA,
+    #bkwidgetCNL14,
+    #bkwidgetCNL15,
+    #bkwidgetCALDECOTT,
+    #bkwidgetNEWBERY,
+    #bkwidgetPRINTZ,
+    #bkwidgetINDIENEXTTEENS {
+        background-color: rgba(237, 235, 230, .6);
+        padding: 0
+    }
+/*
+    .gwt-HTML .bkwidgettitle {
+      height: 100%;
+      width: 100%;
+      background-color: #102F8D;
+    }
+    */
+
+    #bkwidgetNLNF div .gwt-HTML,
+    #bkwidgetNLBFH, div .gwt-HTML,
+    #bkwidgetCNL2 div .gwt-HTML,
+    #bkwidgetNLTS div .gwt-HTML,
+    #bkwidgetALAYA div .gwt-HTML,
+    #bkwidgetCNL14 div .gwt-HTML,
+    #bkwidgetCNL15 div .gwt-HTML,
+    #bkwidgetCALDECOTT div .gwt-HTML,
+    #bkwidgetNEWBERY div .gwt-HTML,
+    #bkwidgetPRINTZ div .gwt-HTML,
+    #bkwidgetINDIENEXTTEENS div .gwt-HTML {
+      width: 100%;
+     /* background-color: #102F8D; */
+      background-color: #1d6078;
+    }
+
+    .bk_cnlname {
+        background: #236077;
+        width: 100% !important;
+        height: 100% !important;
+    }
+
+    #bkwidgetNLNF> div> div> center> font {
+        width: 100% !important;
+    }
+    /*Styling for the rotating box lists.*/
+
+    img.gwt-Image {
+        height: 300px !important;
+        width: 199px !important;
+        padding: 0px !important;
+    }
+
+    .gwt-HTML {
+        padding: 12px 0px;
+        background-color: transparent;
+    }
+
+    #bkwidgetNLBFH img,
+    #bkwidgetNLBNFH img,
+    #bkwidgetNLNF img,
+    #bkwidgetNLNON img,
+    #bkwidgetNLTS img,
+    #bkwidgetCNL2 img,
+    #bkwidgetNLTS img,
+    #bkwidgetALAYA img,
+    #bkwidgetCNL14 img,
+    #bkwidgetCNL15 img,
+    #bkwidgetCALDECOTT img,
+    #bkwidgetNEWBERY img,
+    #bkwidgetPRINTZ img,
+    #bkwidgetINDIENEXTTEENS img {
+        border: none;
+    }
+
+
+    div#bkwidgetNLBFH,
+    div#bkwidgetNLBNFH,
+    div#bkwidgetNLNF,
+    div#bkwidgetNLNON,
+    div#bkwidgetCNL2,
+    div#bkwidgetNLTS,
+    div#bkwidgetALAYA,
+    div#bkwidgetCNL14,
+    div#bkwidgetCNL15,
+    div#bkwidgetCALDECOTT,
+    div#bkwidgetNEWBERY,
+    div#bkwidgetPRINTZ,
+    div#bkwidgetINDIENEXTTEENS {
+        height: 100%;
+        width: 100%;
+        padding-top: 0px;
+    }
+
+    .bkwidgettitle {
+        color: #ffffff;
+        padding: 0px !important;
+    }
+
+.pageStyles table, table[class^="telerik-"] {
+        background-color: #ffffff;
+}
+</style>
