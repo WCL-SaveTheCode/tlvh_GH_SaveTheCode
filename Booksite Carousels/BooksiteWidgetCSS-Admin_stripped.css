@@ -1,0 +1,15 @@
+.bkwidgettitle {
+font-family: 'Open Sans';
+font-weight: normal;
+color: #fff;
+line-height: 1.1;
+}
+
+div[id^='bkwidget']{
+    background: #1d6078 !important;
+}
+
+[id^='bkwidget'] img {
+    background: #fff;
+    margin-top: .5em;
+}

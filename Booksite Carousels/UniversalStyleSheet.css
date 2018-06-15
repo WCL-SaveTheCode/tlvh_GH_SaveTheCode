@@ -1,0 +1,29 @@
+body {font-family: arial, Verdana, Helvetica, sans-serif; font-size: 12pt; background-image: url(http://belldandy.booksite.com/blimages/ckupload/imgaSxMc8WashingtonBG.jpg);}
+
+p {font-family: arial; font-size: 12pt; color: #696764;}
+
+a, a:link, a:visited {color: #007336; text-decoration: underline;}
+a:hover {color: #007336; text-decoration: underline;}
+
+form {margin: 0; 	padding: 0;}
+
+ul {list-style-type:square; list-style-position:inside; list-style-image:('http://www.booksite.com/help/images/bullet.gif') padding: 0 0 0pt 12pt;}
+
+td {vertical-align: top; font-size: 12pt;}
+
+.bk_nlname {font-family: arial; font-size: 18pt; color: #236077; font-weight: bold;}
+.bk_cnlname {font-family: arial; font-size: 18pt; color: #236077; font-weight: bold;}
+
+.bk_title {font-family: arial; font-size: 13pt; color: #696764;}
+
+.bk_isbn {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_author {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_pubdate {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_opac {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_anno {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_nldesc {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_cnldesc {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_more {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_unsub {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_pubname {font-family: arial; font-size: 12pt; color: #696764;}
+.bk_awards {font-family: arial; font-size: 12pt; color: #696764;}

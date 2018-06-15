@@ -1,0 +1,196 @@
+/*--- Container Layout --------------------------------------------------------------*/
+body {
+  background: #013F85;
+  margin: 0 auto;
+  font-family: Arial, verdana, sans-serif;
+  font-size: 12px;
+  width: 1000px;
+  border: 2px solid #4d4d4d;
+}
+
+.noback {
+  background: #FFFFFF;
+}
+
+.button, .button:visited{
+  background: #568eda url(../images/sirsidynix/alert-overlay.png) repeat-x;
+  display: inline-block;
+  padding: 4px 8px;
+  color: #fff;
+  text-decoration: none;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.5);
+  text-shadow: 0 -1px 1px rgba(0,0,0,0.25);
+  border: 1px solid rgba(0,0,0,0.25);
+  position: relative;
+  cursor: pointer;
+  margin-left:2px;
+  font-weight: bold;
+}
+
+/*--- Header -----------------------------------------------------------------*/
+
+.logo_container {
+  width: 415px;
+  height: 70px;
+}
+
+
+/*--- Search Box -----------------------------------------------------------------*/
+
+
+
+
+
+/* --Navigation--------------------------------------------------------------*/
+#mainMenuContainer{
+  margin-right: 10px;
+}
+
+/*--Content-----------------------------------------------------------------*/
+#content{
+  background: #ffffff;
+  display: inline-block;
+  height: auto;
+  overflow: visible;
+  width: 1000px;
+  margin: 0px auto 0;
+  clear:both;
+  padding-top: 10px;
+}
+
+/* --Footer--------------------------------------------------------------*/
+#footer{
+  background: transparent;
+  min-height: 25px;
+  color: #808285;
+  width: 1000px;
+  position: absolute;
+  margin-top:8px;
+}
+
+#footer a{
+  color: #ffffff;
+}
+
+/* --- Modals ---------------------------------------------------------------*/
+
+.holdsTable {width: 500px;}
+.holdsTable td {
+  border-top:2px solid black;
+  padding-top: 2px;
+}
+.titleColumn {width: 300px;}
+
+
+/* --- Misc ----------------------------------------------------------------*/
+
+/* --- Search Results specific to this theme ----------------------------------------------------------------*/
+.searchView {
+  border-bottom: 1px solid #808285;
+  height: 23px;
+}
+
+.limitcolumn_wrapper{
+  border: none;
+}
+
+.list .resultsToolbar_big_wrapper {
+  border-radius: 0;
+  border-bottom: 1px dotted #808285;
+}
+
+.list #results_wrapper {
+  width: auto;
+  border: none;
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.detailPanel {display: none; }
+
+#searchResultsColumn {
+  border:none;
+  border-left: 2px solid #cccccc;
+  width: 769px;
+  background: #ffffff;
+}
+
+.searchLimitsColumn {
+  background-color: #f7f7f7;
+}
+
+#advancedSearchInnerBox{
+  border:none;
+  clear:both;
+}
+
+.searchResults_wrapper{
+  margin:0;
+}
+
+/* --- My Lists styling specific to this theme ----------------------------------------------------------------*/
+
+.listsTable .loginLink a {
+  color: #013F85;
+}
+
+.myListList li.activeList{
+  border: 1px solid #808285;
+  border-width: 1px 0;
+}
+
+.listsTable{
+  width: 99%;
+  margin-left:5px;
+}
+
+#limitcolumn_onlyAvailable{
+  margin-bottom:7px;
+}
+
+#myAccount{
+  padding: 0;
+}
+
+.myListsList .listWrapper {
+  border-width: 0 1px 0 0;
+}
+
+.myListDetails .listWrapper {
+  border-width: 0 0 0 1px;
+}
+
+.myListHeader {
+  margin-top: 5px;
+}
+
+.myListsList .myListHeader {
+  border-width: 0 1px 1px 0;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+.myListDetails .myListHeader {
+  border-width: 0 0 1px 1px;
+  border-radius: 0;
+  -moz-border-radius: 0;
+  -webkit-border-radius: 0;
+}
+
+#myListsContainer {
+  margin: -4px 0 0 0;
+  width: 100%;
+}
+
+.noback{
+  width: auto;
+  border:none;
+}
+
+.holdsTable td {
+ border-width: 1px;
+}

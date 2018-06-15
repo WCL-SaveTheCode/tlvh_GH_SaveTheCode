@@ -1,0 +1,18 @@
+<style>
+.widget.skin60 a:link {
+  text-decoration: none;
+}
+.widget.skin60 .widgetHeader {
+  background-color: #1d6078;
+  padding-top: .5em;
+  padding-bottom: .5em;
+}
+.widget.skin60 .widgetHeader h3 {
+  font-family: 'Open Sans';
+  color: #ffffff;
+}
+.widget.skin60 .widgetHeader h3 a:link {
+  font-family: 'Open Sans';
+  color: #ffffff;
+}
+</style>
