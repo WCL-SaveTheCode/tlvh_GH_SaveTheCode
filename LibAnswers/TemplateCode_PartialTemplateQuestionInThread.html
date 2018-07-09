@@ -1,0 +1,35 @@
+
+<!-- original template -->
+<hr/>
+<p style="font-weight: bold; font-size: 1.2em; color: #666; margin-bottom:5px;">Original Question</p>
+<p style="font-size: .9em;  color: #aaa; margin-top: 0px;">{{{t.asked}}} via {{{t.source}}}</p>
+<div>{{{t.question}}}</div>
+<br/>
+{{#t.files}}
+	<p style="font-weight: bold; color: #666;">Attached Files</p><ul>
+	{{#file}}
+		<li><a href="{{url}}">{{{title}}}</a></li>
+	{{/file}}
+	</ul>
+{{/t.files}}
+
+{{#t.isadmin}}
+	<p style="font-weight: bold; color: #666;">Questioner Information</p>
+	<p><strong style="color: #666;">Name:</strong> {{{t.name}}}<br/>
+	<strong style="color: #666;">Email:</strong> {{t.email}}<br/>
+	{{#t.formfields}}
+		{{#field}}
+			<strong style="color: #666;">{{{label}}}:</strong> {{{value}}}<br/>
+		{{/field}}
+	{{/t.formfields}}
+	</p>
+	{{#t.tags}}
+		<p><strong style="color: #666;">Tagged:</strong>
+		{{#tag}}
+			{{{name}}},
+		{{/tag}}
+		</p>
+	{{/t.tags}}
+{{/t.isadmin}}
+<hr/>
+<br/>

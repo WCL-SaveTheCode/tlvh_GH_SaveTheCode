@@ -1,0 +1,112 @@
+<style>
+
+.clearfix {
+  clear: both;
+}
+
+.width {
+  width: 100%;
+}
+
+.eventList {
+  color: #f9f9f9;
+  clear: both;
+}
+
+/* .eventList .item {
+  background-color: #f9f9f9;
+  margin-bottom: 10px;
+  padding: 5px;
+} */
+
+.eventList a, .eventList .title {
+  font-size: 1em;
+  font-weight: bold;
+  color: #00853e;
+}
+
+.eventList a:hover {
+  color: #00853e;
+}
+
+.eventList .time {
+  font-size: .8em;
+  color: #005f9e;
+}
+
+.eventList .date {
+  float: right;
+  padding-right: 10px;
+  color: #005f9e;
+}
+
+.eventList img {
+  width: 100%;
+  height: auto;
+}
+
+.eventList .image {
+  max-width: 200px;
+  height: auto;
+  margin: 7px auto;
+  overflow: hidden;
+}
+
+.eventList .description {
+  color: #696764;
+  font-size: .9em;
+  line-height: 125%;
+  margin-bottom: 0;
+  margin-top: 5px;
+}
+
+.eventList .location {
+  display: none;
+}
+
+.eventList .branch {
+  display: inline !important;
+  color: #005D2B !important;
+  letter-spacing: .02em !important;
+  text-transform: uppercase !important;
+}
+
+.eventList hr {}
+
+.sidebarContainerColor {
+  background-color: #005f9e;
+  padding: 1em;
+}
+
+.sidebarContainer {
+  font-size: .9em;
+  line-height: 1.2;
+  background-color: hsl(204, 100%, 98%);
+  text-align: center;
+  padding: 10px;
+}
+
+.hoursTable {
+  width: 100%;
+  margin-bottom: 1em;
+}
+
+/*.hoursTable tr {
+    border-bottom: solid 1px #D3D3D3;
+  }*/
+
+.hoursTable td {
+  border-bottom: solid 1px #D3D3D3;
+  padding: 2px;
+  margin: 0;
+}
+
+.hoursDay {
+  font-weight: bolder;
+}
+
+.hoursRightJ {
+  text-align: right;
+}
+
+</style>
