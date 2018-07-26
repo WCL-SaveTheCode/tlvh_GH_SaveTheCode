@@ -1,0 +1,36 @@
+.bk_title {
+  font-family: "Open Sans";
+  color: #236077;
+  display: block;
+}
+
+.bk_author {
+  color: #696764;
+}
+
+.bk_author a:link, a:visited {
+    color: #007336;
+    display: inline-block;
+}
+
+.bk_author a:hover, a:active {
+    color: #96ca4f;
+}
+
+.bk_pubdate, .bk_isbn {
+  display: none;
+  margin: 0;
+  padding: 0;
+}
+
+a.bk_opac {
+  color: #007336;
+  padding: .1em 0;
+  font-size: .9em;
+  line-height: 1em;
+  display: block;
+}
+
+br {
+  display: none;
+}
