@@ -1,3 +1,9 @@
+<style>
+
+table {
+  background-color: #fff !important;
+}
+
 .bk_title {
   font-family: "Open Sans";
   color: #236077;
@@ -6,15 +12,15 @@
 
 .bk_author {
   color: #696764;
+  display: inline-block;
 }
 
 .bk_author a:link, a:visited {
     color: #007336;
-    display: inline-block;
 }
 
 .bk_author a:hover, a:active {
-    color: #96ca4f;
+    color: #4c9d72;
 }
 
 .bk_pubdate, .bk_isbn {
@@ -23,14 +29,28 @@
   padding: 0;
 }
 
-a.bk_opac {
-  color: #007336;
-  padding: .1em 0;
-  font-size: .9em;
-  line-height: 1em;
+.bk_opac {
   display: block;
+  margin-top: 5px;
+}
+
+a.bk_opac {
+  display: inline-block;
+  background-color: #e9eff1;
+  border-radius: 2px;
+  border: 1px solid #d3dfe3;
+  padding: 5px;
+  font-size: .9em;
+  line-height: .9em;
+  text-decoration: none !important;
+}
+
+.bk_opac a:hover {
+  background-color: #bdcfd6;
 }
 
 br {
   display: none;
 }
+
+</style>

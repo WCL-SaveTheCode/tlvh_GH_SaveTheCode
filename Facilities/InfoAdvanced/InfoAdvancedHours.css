@@ -1,0 +1,22 @@
+<style>
+    .sidebarContainer {
+    background-color: #fff;
+    text-align: left;
+    }
+    .hoursTable {
+    width: 100%;
+    margin-bottom: 1em;
+    background-color: #fff !important;
+    }
+    .hoursTable td {
+    border-bottom: solid 1px #D3D3D3;
+    padding: 2px;
+    margin: 0;
+    }
+    .hoursDay {
+    font-weight: bolder;
+    }
+    .hoursRightJ {
+    text-align: right;
+    }
+</style>

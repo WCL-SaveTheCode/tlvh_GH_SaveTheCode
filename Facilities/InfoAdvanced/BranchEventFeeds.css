@@ -1,0 +1,54 @@
+<style>
+
+  #featureColumn {
+  background-color: #236077;
+  padding: 1em; 
+}
+
+div.item {
+  margin-bottom: 1.5em;
+}
+
+div.title {
+  margin-bottom: .25em;
+}
+
+.title a:link {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: bolder;
+  font-size: 1.1em;
+}
+
+.image img {
+  display: none;
+}
+
+span#eventdate {
+  float: left;
+}
+
+#eventsinfo .description, .time, .branch, .location {
+  font-size: .95em;
+  line-height: 1.4em;
+}
+
+span#eventdate::before {
+  font-weight: bold;
+  content: "When: ";
+  color: #4f4743;
+}
+
+.time::before {
+  content: ", ";
+}
+
+div.description {
+  margin: .25em 0;
+}
+
+span.branch {
+  display: none;
+}
+
+</style>
