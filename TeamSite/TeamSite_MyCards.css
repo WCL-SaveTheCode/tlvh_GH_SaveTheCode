@@ -1,0 +1,57 @@
+<style>
+.box {
+  display: flex;
+  justify-content: space-between;
+}
+
+.headBox {
+  display: flex;
+  justify-content: space-around;
+}
+
+.card {
+    /* Add shadows to create the "card" effect */
+    width: 30%;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+    transition: 0.3s;
+    /* display: inline-block; */
+}
+
+/* On mouse-over, add a deeper shadow */
+.card:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.card img {
+  width: 100%;
+}
+
+/* Add some padding inside the card container */
+.container {
+    padding: 2px 0 6px 12px;
+}
+
+.quickLinksBox {
+  width: 20%;
+}
+
+.heroImage {
+  width: 65%;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,0.3);
+  transition: 0.3s;
+}
+
+.heroImage:hover {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.4);
+}
+
+.heroImage img {
+  width: 100%;
+}
+
+#pageTitle {
+display: none !important}
+
+
+
+</style>

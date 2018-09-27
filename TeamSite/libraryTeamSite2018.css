@@ -1,0 +1,140 @@
+/*-----------------------------*/
+/*Library Team Site custom CSS */
+/* started by D.Brew
+add/amend by D.So
+add/amend by T.Van */
+/*-----------------------------*/
+
+/* background body texture */
+#s4-workspace{
+background: url("/teams/lib/Style%20Library/Images/background.jpg");
+ background-size: cover;
+}
+
+/* Remove "Recent" sidebar*/
+
+/* Web Parts customization */
+h2.ms-webpart-titleText.ms-webpart-titleText {
+    border-bottom: 3px solid #396d08;
+}
+.ms-webpart-titleText > a:hover {
+    color: #0072C6 !important;
+}
+.ms-webpart-titleText > a {
+  color: #2C668D !important;
+}
+.ms-webpart-titleText {
+  font-weight:bold;
+}
+/* remove Blog link */
+#ctl00_ctl39_g_97369ae1_94b8_4108_a334_cd4af788bb9f_updatePanelctl00_ctl39_g_97369ae1_94b8_4108_a334_cd4af788bb9f  > div > p > span  {
+display: none;
+}
+.srch-results {
+padding-left: 0px !important;
+}
+.srch-Icon img{
+display: none;
+}
+#CSR div > *, #CSR div > div > * {
+padding-left: 0px;
+}
+
+/* Announcements */
+span.ms-announcementtitle {
+	font-size: 1.25em;
+}
+
+td.ms-vb {
+font-size: 1em !important;
+font-family: tahoma,verdana,arial,helvetica,sans-serif;
+}
+
+.ms-vb.itx {
+font-size: 1.1em !important;
+font-family: tahoma,verdana,arial,helvetica,sans-serif;
+}
+
+/* Left Current Navigation column and Site contents link*/
+#ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAll {
+display: none;
+}
+#siteIcon {
+display:none;
+}
+
+/* main webpart body on all pages
+.ms-webpart-zone.ms-fullWidth {
+float:left;
+}*/
+
+/* Body to fill remaining open column space, reduce Header space*/
+
+#contentRow {
+padding-top: 5px;
+}
+
+#contentBox {
+margin-left: 20px;
+display: table;
+min-width:75%
+}
+
+
+/* Global Navigation Menu customization*/
+ul li ul li.dynamic {
+min-width: 130px;
+}
+
+li.dynamic:hover {
+	padding: 0px 0px 0px 3px;
+	background:  #EBF0F5;
+	font-weight:bold;
+}
+.menu-item:hover .menu-item-text {
+  	padding: 0px 0px 0px 0px;
+	background:  #EBF0F5;
+}
+/*lines under ALL dynamic children */
+.root.ms-core-listMenu-root.static > li > ul > li > ul >  li {
+	border-bottom: 1.5px solid #396d08;
+	padding: 1px 0px 5px 0px;
+}
+
+/*SharePoint Suite Top */
+#suiteBarLeft {
+background-color: #204A69;
+}
+.ms-core-brandingText {
+color: #204A69;
+}
+.ms-core-brandingText::selection {
+color: #204A69;
+}
+.ms-core-brandingText:before {
+  Content: "Library Team Site";
+  Color: white;
+}
+
+/* The following dozen lines turn off the left side bar.*/
+
+
+#sideNavBox{
+	display: none !important;
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea *,
+#DeltaPlaceHolderPageTitleInTitleArea *:before,
+#DeltaPlaceHolderPageTitleInTitleArea *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
+
+/* adjust position of content */
+
+/* #contentBox{
+	margin-left:20px!important;
+} */

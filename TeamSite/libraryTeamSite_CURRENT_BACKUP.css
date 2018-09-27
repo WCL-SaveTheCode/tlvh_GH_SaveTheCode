@@ -1,0 +1,285 @@
+/*-----------------------------*/
+/*Library Team Site custom CSS */
+/*-----------------------------*/
+
+/* background body texture */
+#s4-workspace{
+background: url("/teams/lib/Style%20Library/Images/background.jpg");
+ background-size: cover;
+}
+
+/* Remove "Recent" sidebar*/
+
+/* Web Parts customization */
+h2.ms-webpart-titleText.ms-webpart-titleText {
+    border-bottom: 3px solid #396d08;
+}
+.ms-webpart-titleText > a:hover {
+    color: #0072C6 !important;
+}
+.ms-webpart-titleText > a {
+  color: #2C668D !important;
+}
+.ms-webpart-titleText {
+  font-weight:bold;
+}
+/* remove Blog link */
+#ctl00_ctl39_g_97369ae1_94b8_4108_a334_cd4af788bb9f_updatePanelctl00_ctl39_g_97369ae1_94b8_4108_a334_cd4af788bb9f  > div > p > span  {
+display: none;
+}
+.srch-results {
+padding-left: 0px !important;
+}
+.srch-Icon img{
+display: none;
+}
+#CSR div > *, #CSR div > div > * {
+padding-left: 0px;
+}
+
+/* Announcements */
+span.ms-announcementtitle {
+	font-size: 1.25em;
+}
+
+td.ms-vb {
+font-size: 1em !important;
+font-family: tahoma,verdana,arial,helvetica,sans-serif;
+}
+
+.ms-vb.itx {
+font-size: 1.1em !important;
+font-family: tahoma,verdana,arial,helvetica,sans-serif;
+}
+
+/* Left Current Navigation column and Site contents link*/
+#ctl00_PlaceHolderLeftNavBar_PlaceHolderQuickLaunchBottom_idNavLinkViewAll {
+display: none;
+}
+#siteIcon {
+display:none;
+}
+
+/* main webpart body on all pages*/
+.ms-webpart-zone.ms-fullWidth {
+float:left;
+}
+
+/* Body to fill remaining open column space, reduce Header space*/
+
+#contentRow {
+padding-top: 5px;
+}
+
+#contentBox {
+margin-left: 20px;
+display: table;
+min-width:75%
+}
+
+/* pushes body content up
+.ms-rte-layoutszone-outer {
+max-height: 125px;
+}
+*/
+
+/* Global Navigation Menu customization*/
+ul li ul li.dynamic {
+min-width: 130px;
+}
+
+li.dynamic:hover {
+	padding: 0px 0px 0px 3px;
+	background:  #EBF0F5;
+	font-weight:bold;
+}
+.menu-item:hover .menu-item-text {
+  	padding: 0px 0px 0px 0px;
+	background:  #EBF0F5;
+}
+/*lines under ALL dynamic children */
+.root.ms-core-listMenu-root.static > li > ul > li > ul >  li {
+	border-bottom: 1.5px solid #396d08;
+	padding: 1px 0px 5px 0px;
+}
+
+/*SharePoint Suite Top */
+#suiteBarLeft {
+background-color: #204A69;
+}
+.ms-core-brandingText {
+color: #204A69;
+}
+.ms-core-brandingText::selection {
+color: #204A69;
+}
+.ms-core-brandingText:before {
+  Content: "Library Team Site";
+  Color: white;
+}
+
+/* The following dozen lines turn off the left side bar.*/
+
+
+#sideNavBox{
+	display: none !important;
+}
+
+#DeltaPlaceHolderPageTitleInTitleArea *,
+#DeltaPlaceHolderPageTitleInTitleArea *:before,
+#DeltaPlaceHolderPageTitleInTitleArea *:after {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+
+
+
+/* One line version of
+#DeltaPlaceHolderPageTitleInTitleArea *, #DeltaPlaceHolderPageTitleInTitleArea *:before, #DeltaPlaceHolderPageTitleInTitleArea *:after {-webkit-box-sizing: content-box; -moz-box-sizing: content-box; box-sizing: content-box;
+*/
+
+/* adjust position of content */
+
+#contentBox{
+	margin-left:20px!important;
+}
+
+/*Front Page redesign*/
+/*
+.frontpage-slider-container {
+	position:relative;
+	max-width:980px;
+	height:280px;
+	margin:auto;
+	overflow: hidden;
+}
+
+.frontpage-slider-slides {
+	display:none
+}
+
+.frontpage-slider-control-container {
+	display:inline-block;
+	width:auto;
+	padding:0.01em 16px;
+	margin-top:16px !important;
+	font-size:24px !important;
+	color:#fff!important;
+	position:absolute;
+	left:50%;
+	bottom:0;
+	transform:translate(-50%,0%);
+	-ms-transform:translate(-50%,0%)
+}
+
+.frontpage-slider-control-button {
+	transition: text-shadow 1s;
+}
+
+.frontpage-slider-control-button-left {
+	float:left!important;
+	padding: 30px 60px 15px 15px;
+	background: black;
+	background: -webkit-linear-gradient(right top,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: -o-linear-gradient(bottom left,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: -moz-linear-gradient(bottom left,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: linear-gradient(to bottom left,rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.frontpage-slider-control-button-right {
+	float:right!important;
+	padding: 30px 15px 15px 60px;
+	background: black;
+	background: -webkit-linear-gradient(left top,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: -o-linear-gradient(bottom right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: -moz-linear-gradient(bottom right,rgba(0,0,0,0),rgba(0,0,0,0),rgba(0,0,0,1));
+	background: linear-gradient(to bottom right,rgba(0,0,0,0),rgba(0,0,0,0), rgba(0,0,0,1));
+}
+
+.frontpage-slider-control-button-left:hover, .frontpage-slider-control-button-right:hover {
+	cursor:pointer;
+	text-shadow: 0 0 16px #ffffff;
+}
+
+.frontpage-card-container {
+	min-height: 100%
+	display: flex;
+	flex: 1 0 0;
+	width: 100%;
+	justify-content: space-between;
+}
+
+.frontpage-card {
+	margin: 40px;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+	transition: 0.3s;
+	width: 25%;
+	float: left;
+}
+
+.frontpage-card:hover {
+	box-shadow: 0 6px 12px 0 rgba(0,0,0,0.1);
+}
+
+.frontpage-card-text-container {
+	padding: 2px 16px;
+}
+
+.tabset > input[type="radio"] {
+	position: absolute;
+	left: -200vw;
+}
+
+.tabset .tab-panel {
+	display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+	display: block;
+}
+
+.tabset > label {
+	position: relative;
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	cursor: pointer;
+	font-size: 1.46em;
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+	color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+	background: #06c;
+}
+
+.tabset > input:checked + label {
+	border-color: #ccc;
+	border-bottom: 1px solid #fff;
+	margin-bottom: -1px;
+	background: #204A69;
+	color: #ffffff;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+.tab-panel {
+	padding: 30px 15px;
+	border-top: 1px solid #ccc;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+}
+
+*/

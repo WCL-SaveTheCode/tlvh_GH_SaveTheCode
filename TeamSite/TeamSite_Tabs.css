@@ -1,0 +1,197 @@
+<link href="https://fonts.googleapis.com/css?family=Quicksand" rel="stylesheet">
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+
+<style>
+
+/* ----- Begin Slider styling ----- */
+
+.slider-content {
+	width:100%;
+	max-width: 100%;
+	padding-top: 0px !important;
+}
+
+.slider-wrap {
+	background: none !important;
+	padding: 0px;
+	font-family: 'Quicksand', sans-serif;
+	font-size: 32px;
+}
+.slider-title {
+	display: none;
+}
+.slider-wrap p {
+	display: none;
+}
+.slider-btn-wrap {
+	margin: 0px;
+	width: 100%;
+	height: 325px;
+}
+
+.slider-btn-wrap > a {
+	padding: 0pxss
+	height: 325px;
+}
+
+.slider-button {
+	padding: 286px 0px 0px 0px !important;
+}
+
+.slider .slider-button {
+	background: linear-gradient(0deg, rgba(0,0,0,0.8) 0%, rgba(0,0,0,0.1) 35%, rgba(0,0,0,0) 100%) !important;
+}
+
+.flexslider {
+	border: none;
+	width: 1130px;
+	margin: 0 auto !important;
+}
+
+.flex-control-nav {
+	background: none;
+}
+
+/* ----- End Slider styling ----- */
+
+/* ----- Begin Tiles styling ----- */
+
+
+.ms-promlink-body {
+	width: 1240px;
+	height: 300px;
+	display: flex;
+	margin: 0 auto !important;
+	justify-content: space-around; /* Can be changed in the live sample */
+}
+
+/*  Tile and border size. Delta between ms-tileview-tile-root and size of the promoted link tiles is the space between tiles  */
+.ms-tileview-tile-root {
+	width: 305px! important;
+	height: 305px !important;
+}
+
+/*  Tile size*/
+.ms-tileview-tile-content, .ms-tileview-tile-detailsBox {
+	width: 300px !important;
+	height: 300px !important;
+}
+
+/*  Tile image size*/
+.ms-tileview-tile-content > a > img {
+/*	width: 100% !important; */
+	height: 100% !important;
+}
+
+/* Promoted Link Title hover*/
+.ms-tileview-tile-detailsListMedium {
+	font-weight: bold;
+	height: 100px;
+	padding: 4px 7px 7px;
+	font-size: 12px;
+	line-height: 14px;
+}
+
+/* Promoted Link Description hover*/
+.ms-tileview-tile-descriptionMedium {
+	font-weight: normal;
+	padding-top: 10px;
+	font-size: 11px;
+}
+
+.ms-tileview-tile-titleTextMediumCollapsed {
+	font-weight: normal;
+	background-color: rgba(0, 0, 0, 0.6);
+	width: 100px;
+	height: 40px;
+	position: absolute;
+	top: -20px;
+	left: 0px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 11px;
+	line-height: 20px;
+	word-wrap: break-word;
+}
+
+.ms-tileview-tile-detailsBox {
+	margin-top: 220px;
+}
+
+/* ----- End Tiles styling ----- */
+
+/* ----- Begin Tabs styling ----- */
+
+#tabs {
+	width: 1130px;
+	margin: 0 auto !important;
+}
+
+.tabset > input[type="radio"] {
+	position: absolute;
+	left: -200vw;
+}
+
+.tabset .tab-panel {
+	display: none;
+}
+
+.tabset > input:first-child:checked ~ .tab-panels > .tab-panel:first-child,
+.tabset > input:nth-child(3):checked ~ .tab-panels > .tab-panel:nth-child(2),
+.tabset > input:nth-child(5):checked ~ .tab-panels > .tab-panel:nth-child(3),
+.tabset > input:nth-child(7):checked ~ .tab-panels > .tab-panel:nth-child(4),
+.tabset > input:nth-child(9):checked ~ .tab-panels > .tab-panel:nth-child(5),
+.tabset > input:nth-child(11):checked ~ .tab-panels > .tab-panel:nth-child(6) {
+	display: block;
+}
+
+.tabset > label {
+	position: relative;
+	display: inline-block;
+	padding: 15px;
+	border: 1px solid transparent;
+	border-bottom: 0;
+	cursor: pointer;
+	font-size: 1.46em;
+	font-family: "Segoe UI Semilight","Segoe UI","Segoe",Tahoma,Helvetica,Arial,sans-serif;
+}
+
+.tabset > label:hover,
+.tabset > input:focus + label {
+	color: #06c;
+}
+
+.tabset > label:hover::after,
+.tabset > input:focus + label::after,
+.tabset > input:checked + label::after {
+	background: #06c;
+}
+
+.tabset > input:checked + label {
+	border-color: #ccc;
+<!--	border-bottom: 1px solid #fff; -->
+	margin-bottom: -5px;
+	background: #204A69;
+	color: #ffffff;
+	line-height: 1.4;
+	font-weight: 700;
+}
+
+.tab-panel {
+	padding: 0px 20px 20px 20px;
+	border-top: 1px solid #ccc;
+	box-shadow: 0 2px 4px 0 rgba(0,0,0,0.1);
+	width: 1200px;
+}
+
+/* ----- End Tabs styling ----- */
+
+</style>
+
+<script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+
+<script>
+	$( function() {
+		$( "#tabs" ).tabs();
+	} );
+</script>
