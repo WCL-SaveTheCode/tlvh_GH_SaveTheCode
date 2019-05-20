@@ -5,6 +5,7 @@
 /*  --========= 08.15.16 - v5.0 -  David Brewitz =================-- */
 /*-----------------------------------------------------------------------------------*/
 /*--- Container Layout --------------------------------------------------------------*/
+
 body {
   background: #fff;
   background-image: url(images/backgroundTexture.jpeg);
@@ -40,8 +41,8 @@ a {
 box-shadow: 2px 4px 37px -2px rgba(0, 0, 0, 0.75);
 */
 }
-
 /* ----- WCL theme text styling ----- */
+
 .section-header {
   background-color: #009445;
   color: #ffffff;
@@ -51,7 +52,7 @@ box-shadow: 2px 4px 37px -2px rgba(0, 0, 0, 0.75);
 .section-subheader {
   color: #2C668D;
   border-bottom: 2px solid;
-  margin-left: .5em;
+  margin-left:.5em;
 }
 
 .subheader {
@@ -98,8 +99,8 @@ div.wcm-help-guides a:hover {
   padding-left: 15px;
   text-indent: -15px;
 }
-
 /*--- Header -----------------------------------------------------------------*/
+
 .header {
   width: 100%;
   box-sizing: border-box;
@@ -136,8 +137,8 @@ div.wcm-help-guides a:hover {
 #mainMenuContainer .pipeSeparator-light {
   color: #009445;
 }
-
 /* ----- Menu ----- */
+
 .logo_container img {
   width: 100%;
   max-width: 450px;
@@ -168,8 +169,8 @@ div.wcm-help-guides a:hover {
 }
 
 #libInfoLink,
-#libInfoContainer>div:nth-child(8),
-#mainMenuContainer>div:nth-child(4) {
+#libInfoContainer> div:nth-child(8),
+#mainMenuContainer> div:nth-child(4) {
   display: none;
 }
 
@@ -221,8 +222,8 @@ div.wcm-help-guides a:hover {
 #loginDiv {
   font-size: 16px;
 }
-
 /*--Content-----------------------------------------------------------------*/
+
 #content {
   background-color: #ecebe6
 }
@@ -231,8 +232,8 @@ div.wcm-help-guides a:hover {
   background-color: #edebe6;
   border: none;
 }
-
 /*--- Search Box -----------------------------------------------------------------*/
+
 #searchBox {
   background: #009445;
   border: 2px solid #009445;
@@ -291,8 +292,8 @@ div.wcm-help-guides a:hover {
 #searchButton:hover {
   background-color: #346375;
 }
-
 /*------- Buttons -----------------------------------------------------*/
+
 .btn-Column {
   text-decoration: none;
   -webkit-transition: all 0.3s ease-in-out;
@@ -313,7 +314,7 @@ div.wcm-help-guides a:hover {
   width: 97%;
 }
 
-.greenButton {
+.greenButton{
   background-color: #009445;
   border: none;
   /*border-width: 10px 20px; */
@@ -384,24 +385,16 @@ div.wcm-help-guides a:hover {
 
 #searchBoxAdvancedLink a {
   color: #fff;
-}
-
+     }
 #page-title {
-  display: none;
+display: none;
 }
-
 #searchBoxAdvancedLink {
   margin-top: 0px;
   border-left: none;
 }
-
-/* Login modal image center */
-div#loginImageHolder {
-  margin: auto;
-  width: fit-content;
-}
-
 /*--- Search display fixes ---------------------------------------------*/
+
 .searchLimitsColumn {
   background-color: #fff;
 }
@@ -474,8 +467,8 @@ div#loginImageHolder {
 .limitcolumn_wrapper .button {
   font-size: 12px;
 }
-
 /* -- 4.3 thumbnail display fixes --------------------------------------------*/
+
 .thumb .results_bio {
   margin-top: 57px;
 }
@@ -487,13 +480,13 @@ div#loginImageHolder {
 .thumb .results_chkbox {
   margin-top: 57px
 }
-
 /* -- 4.3 suggested hold window fix -------- */
+
 .holdsTable {
   float: left;
 }
-
 /* --- My Account ------------------------------------------------------------*/
+
 #accountMain {
   padding-left: 4px;
 }
@@ -502,8 +495,8 @@ div#loginImageHolder {
   margin-right: 4px;
   margin-bottom: 4px;
 }
-
 /* --- Image Carousal --------------------------------------------------------*/
+
 .nytimes_listbar {
   background: #236077;
 }
@@ -512,8 +505,8 @@ div#loginImageHolder {
   color: #fff;
   background-color: #47859c;
 }
-
 /* river */
+
 #visibleContentZone {
   /*
 -webkit-box-shadow: 2px 4px 37px -2px rgba(0, 0, 0, 0.75);
@@ -521,8 +514,8 @@ div#loginImageHolder {
 box-shadow: 2px 4px 37px -2px rgba(0, 0, 0, 0.75);
 */
 }
-
 /* --- Accordion, Tab and Modal box Displays --------------------------------------------*/
+
 .ui-widget-header {
   background: #009445;
   color: #ffffff;
@@ -557,7 +550,6 @@ box-shadow: 2px 4px 37px -2px rgba(0, 0, 0, 0.75);
 li.ui-tabs-selected a {
   color: #cccccc;
 }
-
 /*--------------------------------Evanced ------------------------*/
 /* ----- Evanced event feed ----- */
 /*
@@ -565,6 +557,7 @@ div.wcm-events {
 color: #454545;
 }
 */
+
 div.wcm-events a:link {
   text-decoration: none;
 }
@@ -658,8 +651,8 @@ div.wcm-events a:hover {
   font-size: 20px;
   color: #F00;
 }
-
 /*Evanced tinycal Calendar Styling*/
+
 .heading {
   font-size: 20px;
   font-weight: bold;
@@ -684,8 +677,8 @@ div.wcm-events a:hover {
   background-color: inherit;
   color: #009445;
 }
-
 /* Current Month Styles ---------------------------------------------------------------------------------------- */
+
 .eventstinycal {
   /*overflow:auto;*/
   font-size: 1em;
@@ -734,8 +727,8 @@ div.wcm-events a:hover {
 .eventstinycal #tinycal tbody {
   padding-bottom: 20px;
 }
-
 /* Widget Header*/
+
 .eventstinycal #tinycal_nav {
   /*Defines the display of the month/increment decrement month navigation*/
   color: #645d59;
@@ -789,8 +782,8 @@ div.wcm-events a:hover {
   /*Defines the display of blank day cells.*/
   background-color: transparent;
 }
-
 /* Other Month Styles --------------------------------------------------------------------------------------------- */
+
 .eventstinycal2 {
   /*overflow:auto;*/
   font-size: 1em;
@@ -900,8 +893,8 @@ table[class^="telerik-"] td,
 table[class^="telerik-"] th {
   padding: 0px;
 }
-
 /* google search form  -------------------------------------- */
+
 .searchform {
   display: inline-block;
   zoom: 1;
@@ -922,7 +915,7 @@ table[class^="telerik-"] th {
   /* ie7 */
   -ms-filter: progid: DXImageTransform.Microsoft.gradient(startColorstr='#ffffff', endColorstr='#ededed');
   /* ie8 */
-  width: 99%;
+    width: 99%;
 }
 
 .searchform input {
@@ -980,8 +973,8 @@ table[class^="telerik-"] th {
 .displayElementText {
   color: #696764
 }
-
 /* footer */
+
 #footer {
   margin-top: 0px !important;
   background-color: #0a1923;
@@ -989,9 +982,9 @@ table[class^="telerik-"] th {
   font-size: 12px;
   transition: all .2s ease-in-out;
 }
-
 /*--------------------------------FOOTER-----------------------------------*/
 /* Custom footer container */
+
 #footer a:hover {
   color: #5cba6c;
   transition: all .2s ease-in-out;
@@ -1037,8 +1030,8 @@ table[class^="telerik-"] th {
   border-bottom: 1px solid #606060;
   padding-left: 5px;
 }
-
 /* drop down of events and location */
+
 .dropEvents {
   padding-left: 10px;
 }
@@ -1066,7 +1059,7 @@ table[class^="telerik-"] th {
   background-color: #0a1923;
   color: white;
   border: 0px solid #606060;
-  /*  font-family: Verdana, Open Sans, Arial Unicode MS, Arial, Verdana, Helvetica, sans-serif; */
+/*  font-family: Verdana, Open Sans, Arial Unicode MS, Arial, Verdana, Helvetica, sans-serif; */
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -1075,7 +1068,7 @@ table[class^="telerik-"] th {
   background-color: #0a1923;
   color: white;
   border: 0px solid #606060;
-  /*  font-family: Verdana, Open Sans, Arial Unicode MS, Arial, Verdana, Helvetica, sans-serif; */
+/*  font-family: Verdana, Open Sans, Arial Unicode MS, Arial, Verdana, Helvetica, sans-serif; */
   font-size: 14px;
   letter-spacing: 1px;
 }
@@ -1084,9 +1077,9 @@ table[class^="telerik-"] th {
   background-color: #285c8e;
   letter-spacing: 1px;
 }
-
 /* end drop down of events and location */
 /* Social Media buttons */
+
 .highlightit {
   padding-left: 10px;
 }
@@ -1094,9 +1087,9 @@ table[class^="telerik-"] th {
 .highlightit:hover {
   opacity: .6;
 }
-
 /* End Social Media buttons */
 /* SD Copyright */
+
 .sdCopyrightLink a {
   color: #808285 !important;
 }
@@ -1105,23 +1098,20 @@ table[class^="telerik-"] th {
   background-color: #000;
   clear: both;
 }
-
 .alertMessageContainer {
   width: 100%;
-  margin: auto;
-  background-color: #FFD240;
+  margin:auto;
+  background-color:#FFD240;
 }
-
 .alertMessageL1 {
-  text-align: center;
-  line-height: 1.2em;
-  margin: 0;
-  padding-top: 2px;
-  color: black;
-  font-weight: normal;
-  font-size: 1.2em;
+text-align: center;
+line-height: 1.2em;
+margin:0;
+padding-top:2px;
+color:black;
+font-weight:normal;
+font-size: 1.2em;
 }
-
 .alertMessageL2 {
-  font-size: 1em;
+font-size: 1em;
 }

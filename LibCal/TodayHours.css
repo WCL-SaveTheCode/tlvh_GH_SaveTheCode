@@ -1,0 +1,20 @@
+<div id="api_hours_today_iid4372_lid9600"></div><script src="https://api3.libcal.com/api_hours_today.php?iid=4372&lid=9600&format=js&systemTime=0&context=object"></script><style>th[class=hours-col-loc] {
+  display: none;
+}
+
+span.s-lc-time {
+  font-size: .95em;
+}
+
+td.hours-col-time {
+  padding: 0;
+  text-align: center;
+  background-color: #dcf1fa;
+}
+
+.s-lc-time::before {
+  content: "Today's Hours: ";
+  font-weight: bold;
+}
+
+</style>

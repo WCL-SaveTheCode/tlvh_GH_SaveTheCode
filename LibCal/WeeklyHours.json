@@ -1,0 +1,949 @@
+{
+  "locations": [{
+    "lid": 9600,
+    "name": "Hardwood Creek Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/445/Hardwood-Creek-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "1pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-23",
+        "rendered": "1pm - 5pm"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "9:30am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "9:30am - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "9:30am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "9:30am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "9:30am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "9:30am - 5pm"
+      }
+    }]
+  }, {
+    "lid": 9576,
+    "name": "Lake Elmo Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/448/Lake-Elmo-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "45.000187",
+    "long": "-92.879696",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-23",
+        "rendered": "Closed"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "4pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "10am - 4pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "12pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "12pm - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "12pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "12pm - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "12pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "12pm - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "4pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "10am - 4pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "2pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "10am - 2pm"
+      }
+    }]
+  }, {
+    "lid": 8954,
+    "name": "Oakdale Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://www.washcolib.org/446/Oakdale-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "1pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-23",
+        "rendered": "1pm - 5pm"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "9:30am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "12:30pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "12:30pm - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "12:30pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "12:30pm - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "12:30pm",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "12:30pm - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "12:30pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "12:30pm - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "9:30am - 5pm"
+      }
+    }]
+  }, {
+    "lid": 9602,
+    "name": "Park Grove Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/447/Park-Grove-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "1pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-23",
+        "rendered": "1pm - 5pm"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "9:30am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "9:30am - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "9:30am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "9:30am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "9:30am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "9:30am - 5pm"
+      }
+    }]
+  }, {
+    "lid": 8074,
+    "name": "R.H. Stafford Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://www.washcolib.org/434/RH-Stafford-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "44.9166578",
+    "long": "-92.9324329",
+    "color": "#0D9BB8",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "1pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-23",
+        "rendered": "1pm - 5pm"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "9:30am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "9:30am - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "9:30am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "9:30am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "9:30am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "9:30am - 5pm"
+      }
+    }]
+  }, {
+    "lid": 9603,
+    "name": "Valley Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/449/Valley-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-23",
+        "rendered": "Closed"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "2pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "10am - 2pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "2pm",
+            "to": "6pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "2pm - 6pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "2pm",
+            "to": "6pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "2pm - 6pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "3pm",
+            "to": "7pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "3pm - 7pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "2pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "10am - 2pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "2pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "10am - 2pm"
+      }
+    }]
+  }, {
+    "lid": 9604,
+    "name": "Wildwood Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/450/Wildwood-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-23",
+        "rendered": "Closed"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "9:30am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "9:30am - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "9:30am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "9:30am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "9:30am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "9:30am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "9:30am - 5pm"
+      }
+    }]
+  }, {
+    "lid": 9601,
+    "name": "Law Library",
+    "category": "library",
+    "desc": "",
+    "url": "https://washcolib.org/154/Law-Library",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-23",
+        "rendered": "Closed"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "8am",
+            "to": "4:30pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "8am - 4:30pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "8am",
+            "to": "4:30pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "8am - 4:30pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "8am",
+            "to": "4:30pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "8am - 4:30pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "8am",
+            "to": "4:30pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "8am - 4:30pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "8am",
+            "to": "4:30pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "8am - 4:30pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-29",
+        "rendered": "Closed"
+      }
+    }]
+  }, {
+    "lid": 9599,
+    "name": "Bayport Public Library",
+    "category": "library",
+    "desc": "",
+    "url": "http://www.bayportlibrary.org/",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "closed"
+        },
+        "date": "2018-12-23",
+        "rendered": "Closed"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "10am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "6pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "10am - 6pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "10am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "10am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "10am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "3pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "10am - 3pm"
+      }
+    }]
+  }, {
+    "lid": 9605,
+    "name": "Stillwater Public Library",
+    "category": "library",
+    "desc": "",
+    "url": "http://stillwaterlibrary.org/",
+    "contact": "",
+    "fn": "",
+    "lat": "",
+    "long": "",
+    "color": "#000000",
+    "weeks": [{
+      "Sunday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "1pm",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-23",
+        "rendered": "1pm - 5pm"
+      },
+      "Monday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-24",
+        "rendered": "10am - 8pm"
+      },
+      "Tuesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-25",
+        "rendered": "10am - 8pm"
+      },
+      "Wednesday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-26",
+        "rendered": "10am - 8pm"
+      },
+      "Thursday": {
+        "times": {
+          "currently_open": true,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "8pm"
+          }]
+        },
+        "date": "2018-12-27",
+        "rendered": "10am - 8pm"
+      },
+      "Friday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-28",
+        "rendered": "10am - 5pm"
+      },
+      "Saturday": {
+        "times": {
+          "currently_open": false,
+          "status": "open",
+          "hours": [{
+            "from": "10am",
+            "to": "5pm"
+          }]
+        },
+        "date": "2018-12-29",
+        "rendered": "10am - 5pm"
+      }
+    }]
+  }]
+}

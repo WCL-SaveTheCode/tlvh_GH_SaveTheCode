@@ -1,0 +1,65 @@
+<style>h3.s-lc-ea-h3 {
+  font-size: 1.3em !important;
+  text-align: center;
+  margin: .8em 0 !important;
+  color: #1d6078;
+}
+
+div#api_upc_cid10166_iid4372 {
+  width: 75%;
+  margin: auto;
+  background-color: #fff;
+  padding: 1em;
+}
+
+table.s-lc-ea-tb {
+  margin: 1.5em 0 2em 0;
+  font-size: .9em;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.s-lc-ea-tb td {
+  padding: 0;
+}
+
+td.s-lc-ea-l {
+  display: none;
+}
+
+tr.s-lc-ea-tcat {
+  display: none;
+}
+
+tr.s-lc-ea-tloc {
+  display: none;
+}
+
+tr.s-lc-ea-tpre {
+  display: none;
+}
+
+.tcam td {
+  text-transform: uppercase;
+  letter-spacing: .02em !important;
+  color: #007336;
+  text-align: right;
+}
+
+tr.s-lc-ea-ttit a {
+  color: #007336;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+.s-lc-ea-tdes p {
+  margin: .5em 0;
+}
+
+.s-lc-ea-tdes td {
+  padding-bottom: .6em;
+}
+
+</style>

@@ -1,0 +1,50 @@
+<style>h3.s-lc-ea-h3 {
+  display: none;
+}
+
+table.s-lc-ea-tb {
+  margin: 1.25em 0 1.25em 0;
+  padding-bottom: 1em;
+  border-bottom: 2px solid #ccc;
+}
+
+.s-lc-ea-tb td {
+  padding: 0;
+}
+
+td.s-lc-ea-l {
+  display: none;
+}
+
+tr.s-lc-ea-tcat {
+  display: none;
+}
+
+tr.s-lc-ea-tloc {
+  display: none;
+}
+
+tr.s-lc-ea-tpre {
+  display: none;
+}
+
+tr.tcam {
+  display: none;
+}
+
+tr.s-lc-ea-ttit a {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 700 !important;
+  font-size: 1.1em;
+  text-decoration: underline;
+}
+
+.s-lc-ea-tdes p {
+  margin: .5em 0;
+}
+
+.s-lc-ea-tdes td {
+  padding-bottom: .6em;
+}
+
+</style>

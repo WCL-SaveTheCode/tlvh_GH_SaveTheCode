@@ -1,0 +1,67 @@
+<div class="media s-lc-c-evt">
+    <div class="media-body"><h3 class="media-heading"><a href="{{url}}">{{title}}</a></h3>
+        <div class="s-lc-c-evt-des">{{{shortdesc}}}
+            {{#shortdesc_was_truncated}}
+            &nbsp;<a href="{{url}}">More</a><br>
+            {{/shortdesc_was_truncated}}
+        </div>
+        <dl class="dl-horizontal">
+            <dt>Date:</dt>
+            <dd>{{date}}
+                {{#future_dates.0}}
+                    <i class="fa fa-calendar pad-left-med" aria-hidden="true"></i>
+                    <a href="#" onclick="jQuery('#future_{{id}}').toggle(); return false;"> Show more dates</a>
+                    <p id="future_{{id}}" style="display:none">
+                        {{#future_dates}}
+                        <a href="/event/{{event_id}}">{{start}}</a><br>
+                        {{/future_dates}}
+                    </p>
+                {{/future_dates.0}}
+            </dd>
+
+            <dt>Time:</dt>
+            <dd>{{start}}{{#end}} - {{end}}{{/end}}</dd>
+
+            <dt>Location:</dt>
+            <dd>{{#location}}{{location}}{{#campus}}, {{/campus}}{{/location}}{{#campus}}{{campus}}{{/campus}}</dd>
+
+            {{#audiences.0}}
+            <dt>Audience:</dt>
+            <dd>{{#audiences}}
+                <span class="s-lc-event-category-color" style="background-color:{{color}}">&nbsp;</span>
+                <span class="s-lc-event-category-link">
+                    <a href="{{calendar_url}}&t=d&cal%5B%5D={{calendar_id}}&audience%5B%5D={{id}}">{{name}}</a>
+                </span> &nbsp;
+                {{/audiences}}
+            </dd>
+            {{/audiences.0}}
+
+            {{#categories_arr.0}}
+            <dt>Categories:</dt>
+            <dd>{{#categories_arr}}
+                <span class="s-lc-event-category-color" style="background-color:{{color}}">&nbsp;</span>
+                <span class="s-lc-event-category-link">
+                    <a href="{{calendar_url}}&t=d&d=0000-00-00&cal%5B%5D={{calendar_id}}&ct%5B%5D={{cat_id}}">{{name}}</a>
+                </span> &nbsp;
+                {{/categories_arr}}
+            </dd>
+            {{/categories_arr.0}}
+
+            <dt></dt>
+            <dd>
+                {{#seats}}
+                <dt></dt>
+                <dd><a href="{{url}}" class="btn btn-success btn-sm margin-top-med">Register! {{#seatsleft}} - {{seatsleft}} seat{{#seatsleft_multiple}}s{{/seatsleft_multiple}} left{{/seatsleft}}</a></dd>
+                {{/seats}}
+
+                {{#registration_msg}}
+                <dt></dt>
+                <dd><a href="{{url}}" class="btn {{class}} btn-sm margin-top-med">{{msg}}</a></dd>
+                {{/registration_msg}}
+            </dd>
+        </dl>
+    </div>
+    {{#featured_image}}
+    <div class="media-right"><a href="{{url}}"> <img class="media-object img-thumbnail s-lc-c-evt-fi" src="{{featured_image}}" alt="{{title}}"> </a></div>
+    {{/featured_image}}
+</div>
